@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=mobile-width">
+  <style>
+    *{
+      margin: 0;
+      padding:0;
+    }
+    h1{
+      text-align: center;
+    }
+    .all{
+      margin:0 auto;
+      max-width:600px;
+      box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+      text-align: center;
+      transition:0.2s;
+      font-size:0;
+
+     }
+  .all:hover{
+    box-shadow:0 16px 32px 0 rgba(0, 0,0,0.2);
+  } 
+  .write #text{
+      width:571px;
+      height:100px;
+      text-align: right;
+      padding:10px;
+      font-size:30px;
+      letter-spacing:5px;
+
+  }
+  .hello{
+    width:150px;
+    height:80px;
+    background: black;
+    color:white;
+  }
+  .hello:hover {
+    background-color: rgb(114, 88, 83);
+  }
+
+    .go{
+      background: blueviolet;
+    }
+
+
+
+
+
+  </style>
+
+</head>
+<h1>Calculator</h1>
+<div class="all"> 
+     
+   <div class="write">
+       <input type="text" id="text" maxlength="10" name="display">
+   </div>
+
+     <div>
+      <input type="submit" value="c" class="hello">
+       <input type="submit" value="+/-" class="hello">
+         <input type="submit" value="%" class="hello" >
+           <input type="submit" value="/" class="hello go">
+     </div>
+     <div>
+      <input type="submit" value="7" class="hello">
+       <input type="submit" value="8" class="hello">
+         <input type="submit" value="9" class="hello">
+           <input type="submit" value="x" class="hello go">
+     </div>
+     <div>
+      <input type="submit" value="4" class="hello">
+       <input type="submit" value="5" class="hello">
+         <input type="submit" value="6" class="hello">
+           <input type="submit" value="-" class="hello go">
+     </div>
+     <div>
+      <input type="submit" value="1" class="hello">
+       <input type="submit" value="2" class="hello">
+         <input type="submit" value="3" class="hello">
+           <input type="submit" value="+" class="hello go">
+     </div>
+     <div>
+      <input type="submit" value="0" class="hello">
+       <input type="submit" value="." class="hello">
+         <input type="submit" value="DEL" class="hello">
+           <input type="submit" value="=" class="hello" style="background:darkgoldenrod;">
+     </div>
+    
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
